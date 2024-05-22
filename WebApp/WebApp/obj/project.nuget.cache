@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8yD09VeMcSs89j6FBPVBBIiMxcimIY2BuNQHi9TGl7nnvtC7OUPwCyIYcdb9AZ68UvuZ8O+emUKeNRLYrWGGLA==",
+  "dgSpecHash": "hmWGn9vr7219BZnAXX65yO6hjVT5OGG9jIT5QuztDAxQPGp+cm5rmAknGgPGy7W0BJMnVlEwMXinLIalu/8JOA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Netwise_recrutation_task\\WebApp\\WebApp\\WebApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DzeyD\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\DzeyD\\.nuget\\packages\\moq\\4.20.70\\moq.4.20.70.nupkg.sha512",
+    "C:\\Users\\DzeyD\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\DzeyD\\.nuget\\packages\\xunit.assert\\2.8.0\\xunit.assert.2.8.0.nupkg.sha512"
+  ],
   "logs": []
 }

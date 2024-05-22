@@ -7,14 +7,30 @@
 
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Welcome to cat facts</h1>
 
     <form method="get">
-        <button type="submit" class="btn btn-primary">Get a Fact</button>
+        <label for="count">Choose a umber of facts:</label>
+        <input type="number" id="count" name="count" min="1" value="1" />
+        <br />
+        <button type = "submit" class="btn btn-primary">Get a Fact</button>
     </form>
 
-    @if (Model.Fact != null)
+    @if (Model.Facts.Count > 0 && Model.Facts.Count < 2)
     {
-        <p>Fact got saved to facts.txt: @Model.Fact</p>
+        <br />
+        <p>
+            Fact got saved to facts.txt: 
+            @Model.Facts[0]
+        </p>
+    }
+    else if (Model.Facts.Count > 1)
+    {
+        <ol class="list">
+            @foreach (var fact in Model.Facts)
+            {
+                <li>@fact</li>
+            }
+        </ol>
     }
 </div>

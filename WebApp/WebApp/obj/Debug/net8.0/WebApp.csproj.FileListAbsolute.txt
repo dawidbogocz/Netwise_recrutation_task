@@ -59,3 +59,8 @@ D:\Projects\Netwise_recrutation_task\WebApp\WebApp\obj\Debug\net8.0\refint\WebAp
 D:\Projects\Netwise_recrutation_task\WebApp\WebApp\obj\Debug\net8.0\WebApp.pdb
 D:\Projects\Netwise_recrutation_task\WebApp\WebApp\obj\Debug\net8.0\WebApp.genruntimeconfig.cache
 D:\Projects\Netwise_recrutation_task\WebApp\WebApp\obj\Debug\net8.0\ref\WebApp.dll
+D:\Projects\Netwise_recrutation_task\WebApp\WebApp\obj\Debug\net8.0\WebApp.csproj.AssemblyReference.cache
+D:\Projects\Netwise_recrutation_task\WebApp\WebApp\bin\Debug\net8.0\Castle.Core.dll
+D:\Projects\Netwise_recrutation_task\WebApp\WebApp\bin\Debug\net8.0\Moq.dll
+D:\Projects\Netwise_recrutation_task\WebApp\WebApp\bin\Debug\net8.0\xunit.assert.dll
+D:\Projects\Netwise_recrutation_task\WebApp\WebApp\obj\Debug\net8.0\WebApp.csproj.Up2Date
