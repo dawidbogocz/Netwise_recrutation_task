@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <form method="get">
+        <button type="submit" class="btn btn-primary">Get a Fact</button>
+    </form>
+
+    @if (Model.Fact != null)
+    {
+        <p>Fact got saved to facts.txt: @Model.Fact</p>
+    }
+</div>
