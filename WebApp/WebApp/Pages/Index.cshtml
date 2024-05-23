@@ -19,18 +19,35 @@
     @if (Model.Facts.Count > 0 && Model.Facts.Count < 2)
     {
         <br />
+        <p>Fact got saved to facts.txt:</p>
         <p>
-            Fact got saved to facts.txt: 
             @Model.Facts[0]
+            <button class="btn btn-sm btn-info" onclick="copyToClipboard('@Model.Facts[0]')">Copy</button>
         </p>
     }
     else if (Model.Facts.Count > 1)
     {
+        <br />
         <ol class="list">
             @foreach (var fact in Model.Facts)
             {
-                <li>@fact</li>
+                <li>
+                    @fact
+                    <button class="btn btn-sm btn-info" onclick="copyToClipboard('@fact')">Copy</button>
+                </li>
             }
         </ol>
     }
 </div>
+
+@section Scripts {
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function () {
+                alert('Fact copied to clipboard!');
+            }, function () {
+                alert('Failed to copy fact.');
+            });
+        }
+    </script>
+}
